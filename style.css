@@ -1,0 +1,144 @@
+/* Add these styles to your existing CSS file or create a new one */
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background: #9185f0;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #db343f;
+}
+nav{
+
+}
+
+nav ul {
+    
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+nav li {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: rgb(19, 137, 254);
+
+  
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+    transition: color 0.8s ease;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+
+
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about {
+    display:flex;
+    justify-content: space-between;
+}
+
+img {
+
+    height: auto;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+
+
+.form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+button {
+    background: linear-gradient(135deg, #3498db, #6c5ce7);
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #2980b9, #5f27cd);
+}
+
+.footer {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    text-align: center;
+    padding: 20px 0;
+}
